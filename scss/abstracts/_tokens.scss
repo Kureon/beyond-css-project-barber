@@ -19,7 +19,7 @@ $box-shadow-1: 0 $size-1 $size-4 rgb(0 0 0 / 0.05);
 $box-shadow-2: 0 $size-1 $size-4 rgb(0 0 0 / 0.15);
 
 // Body
-$body-font-family: $font-family-base;
+$body-font-family: $ff-base;
 $body-font-size: $font-size-400;
 $body-line-height: 1.5;
 $body-font-wheight: $font-weight-default;
@@ -31,7 +31,7 @@ $link-color: $color-text-teractive-default;
 $link-color-hover: $color-text-interactive-hover;
 
 // Heading
-$heading-font-family: $font-family-accent;
+$heading-font-family: $ff-accent;
 $heading-color-default: $body-text-color;
 $heading-font-weight: $font-weight-bold;
 $heading-letter-spacing: $letter-spacing-loose;
@@ -58,6 +58,8 @@ $button-font-size: $body-font-size;
 $button-font-weight: $font-weight-bold;
 $button-text-transform: none;
 $button-padding: 0.75em 2em;
+$button-padding-default: $size-3 $size-9; // 12px 32px
+$button-border: 0;
 $button-border-radius: $border-radius-1;
 
 $button-accent-color: $color-neutral-100;

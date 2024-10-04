@@ -1,8 +1,8 @@
 $-ff-sans: "Source Sans Pro", sans-serif;
 $-ff-serif: "Alegreya SC", serif;
 
-$ff-base: $ff-sans;
-$ff-accent: $ff-serif;
+$ff-base: $-ff-sans;
+$ff-accent: $-ff-serif;
 
 $font-sizes: (
   "small": (
