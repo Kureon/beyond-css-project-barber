@@ -83,3 +83,19 @@ $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
 $card-border-radius: $border-radius-2;
 $card-box-shadow: $box-shadow-1;
+
+// Site header
+$site-header-background-color: $color-primary-800;
+$site-header-color: $color-neutral-100;
+$site-header-padding: $size-8 0;
+$site-header-justification: space-between;
+$site-header-alignment: start;
+
+// Navigation
+$navigation-color: $site-header-color;
+$navigation-color-hover: $color-primary-300;
+$navigation-font-family: $ff-accent;
+$navigation-font-size: $font-size-400;
+$navigation-font-weight: $font-weight-bold;
+$navigation-letter-spacing: $letter-spacing-wide;
+$navigation-spacing: $size-9;
